@@ -92,7 +92,7 @@ export default function AboutSection() {
   return (
     <section
       id="about"
-      className="py-24 px-6 max-w-6xl mx-auto border-t border-zinc-900"
+      className="py-16 md:py-24 px-6 max-w-6xl mx-auto border-t border-zinc-200/50 dark:border-zinc-900"
     >
       <div className="flex flex-col gap-12 lg:flex-row items-center justify-between">
         <motion.div

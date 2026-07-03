@@ -144,7 +144,17 @@
     @apply bg-black text-slate-100 min-h-screen relative overflow-x-hidden;
   }
   html {
-    @apply font-sans;
+    @apply font-sans scroll-smooth;
+  }
+}
+
+@media (min-width: 1024px) {
+  html {
+    scroll-snap-type: y proximity;
+  }
+  section, footer {
+    scroll-snap-align: start;
+    scroll-snap-stop: normal;
   }
 }
 

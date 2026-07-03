@@ -110,7 +110,7 @@ export default function ContactSection() {
   };
 
   return (
-    <section id="contact" className="py-24 px-6 max-w-4xl mx-auto border-t border-zinc-900 relative">
+    <section id="contact" className="py-16 md:py-24 px-6 max-w-4xl mx-auto border-t border-zinc-200/50 dark:border-zinc-900 relative">
       {/* Toast Notification Stack */}
       <div className="fixed top-6 right-6 z-50 flex flex-col gap-2 max-w-md w-full">
         <AnimatePresence>

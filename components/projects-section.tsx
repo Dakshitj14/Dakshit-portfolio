@@ -125,7 +125,7 @@ export default function ProjectsSection() {
   }));
 
   return (
-    <section id="projects" className="py-24 px-6 max-w-6xl mx-auto border-t border-zinc-200/50 dark:border-zinc-900">
+    <section id="projects" className="py-16 md:py-24 px-6 max-w-6xl mx-auto border-t border-zinc-200/50 dark:border-zinc-900">
       <div className="text-center mb-16">
         <motion.h2
           initial={{ opacity: 0, y: 20 }}
@@ -148,7 +148,7 @@ export default function ProjectsSection() {
       </div>
 
       {/* Desktop Grid Layout */}
-      <div className="hidden md:grid gap-8 md:grid-cols-2 lg:grid-cols-3">
+      <div className="hidden lg:grid gap-8 lg:grid-cols-3">
         {projects.map((proj, index) => (
           <motion.div
             key={index}
@@ -219,7 +219,7 @@ export default function ProjectsSection() {
       </div>
 
       {/* Mobile Sticky Scroll Layout */}
-      <div className="block md:hidden w-full">
+      <div className="block lg:hidden w-full">
         <StickyScroll content={stickyContent} />
       </div>
     </section>

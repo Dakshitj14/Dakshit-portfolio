@@ -5,7 +5,7 @@ import { GraduationCap, MapPin, BookOpen } from "lucide-react";
 
 export default function EducationSection() {
   return (
-    <section id="education" className="py-24 px-6 max-w-4xl mx-auto border-t border-zinc-900">
+    <section id="education" className="py-16 md:py-24 px-6 max-w-4xl mx-auto border-t border-zinc-200/50 dark:border-zinc-900">
       <div className="text-center mb-16">
         <motion.h2
           initial={{ opacity: 0, y: 20 }}

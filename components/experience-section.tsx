@@ -7,7 +7,7 @@ export default function ExperienceSection() {
   return (
     <section
       id="experience"
-      className="py-24 px-6 max-w-4xl mx-auto border-t border-zinc-900"
+      className="py-16 md:py-24 px-6 max-w-4xl mx-auto border-t border-zinc-200/50 dark:border-zinc-900"
     >
       <div className="text-center mb-16">
         <motion.h2

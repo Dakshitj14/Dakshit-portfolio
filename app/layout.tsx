@@ -22,6 +22,11 @@ const siteUrl = "https://dakshitjha.dev"; // Target production URL for SEO
 export const metadata: Metadata = {
   title: "Dakshit Jha | Premium Personal Portfolio",
   description: "Final Year Computer Science Engineering Student & Passionate Full Stack Developer. Exploring AI, Machine Learning, and building high-performance scalable web products.",
+  icons: {
+    icon: "/icon.svg",
+    shortcut: "/icon.svg",
+    apple: "/icon.svg",
+  },
   keywords: [
     "Dakshit Jha",
     "Portfolio",

@@ -43,7 +43,7 @@ const achievements = [
 
 export default function AchievementsSection() {
   return (
-    <section id="achievements" className="py-24 px-6 max-w-6xl mx-auto border-t border-zinc-200/50 dark:border-zinc-900">
+    <section id="achievements" className="py-16 md:py-24 px-6 max-w-6xl mx-auto border-t border-zinc-200/50 dark:border-zinc-900">
       <div className="text-center mb-10">
         <h2 className="font-outfit text-3xl font-bold md:text-4xl bg-clip-text text-transparent bg-gradient-to-r from-zinc-800 to-zinc-500 dark:from-white dark:to-zinc-400">
           Key Achievements
